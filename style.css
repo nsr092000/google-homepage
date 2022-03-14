@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    background-color: rgb(24, 23, 23);
+}
+
+.first{
+    text-decoration: none;
+}
+
+.heading{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    
+}
+
+.heading a{
+    margin-right: 10px;
+    color: white;
+}
+
+.image{
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.between{
+    margin-top:230px;
+}
+
+#images{
+    text-align: center;
+}
+
+.searchbar{
+   margin-top: 10px;
+   position: relative;
+   text-align: center;
+}
+
+input{
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 30px;
+    width: 550px;
+    height: 38px;
+    color: white;
+    outline: 0;
+    border-width: 1px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+input:hover{
+    background-color: rgb(43, 40, 40);
+}
+
+
+.button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+div span a{
+    color:white;
+    margin-right: 10px;
+    padding:10px;
+    background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.links a{
+     margin-top: 10px;
+     font-size: 12px;
+     margin-right: 10px;
+     text-decoration: none;
+}
+
+.links span{
+    color: white;
+    margin-top: 10px; 
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+hr{
+    border-width: 1px;
+    border-color: rgb(71, 68, 68);
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerstart, .footerend{
+    margin: 15px;
+}
+
+.footerstart a, .footerend a{
+    margin-left: 15px;
+    color:white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
